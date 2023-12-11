@@ -1,0 +1,23 @@
+{
+    "name": "nodesolutions/module-exportcms",
+    "description": "Export Cms blocks and pages",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "NodeSolutions Team",
+            "email": "info@nodesolutions.ca",
+            "homepage": "https://nodesolutions.ca/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "NodeSolutions\\ExportCms\\": ""
+        }
+    }
+}
